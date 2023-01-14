@@ -1,9 +1,9 @@
 /* 
  * File:   main.cpp
- * Author: avila
- * Created on January 13, 2023, 2:25 AM
- * Purpose: Template used for all
- *          future hmrk, Labs, Exams, projects                  
+ * Author: Gaddis Chapter 2 Problem 1
+ * Created on January 13, 2023, 10:00 PM
+ * Purpose: Write a program that stores the integers 50 and 100 in variables, 
+ * and stores the sum of these two in a variable named total.                  
  */
 
 //System Libraries
@@ -22,13 +22,15 @@ int main(int argc, char** argv) {
     //Set random number seed
     
     //Declare Variables
-    
+    int valOne, valTwo, total; //Three variables 
     //Initialize Variables
-    
+    valOne = 50;
+    valTwo = 100;
     //Map/Process the Inputs -> Outputs
-    
+    total = valOne + valTwo; // Adding for the total
     //Display Inputs/Outputs
-    
+    cout << "What is the total of 50 plus 100?\n"; // Displayed final answer
+    cout << total << endl;
     //Clean up memory and files
     
     //Exit the Program
