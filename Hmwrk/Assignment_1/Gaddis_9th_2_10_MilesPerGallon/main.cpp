@@ -23,13 +23,20 @@ using namespace std;
 int main(int argc, char** argv) {
     //Set random number seed
     
-    //Declare Variables
+    //Declare Variables 
+    int galns = 15,             //car holds 15 gallons of gas
+        tlMiles = 375,          //can travel 375 mi before refueling
+        MPG;                    //miles per gallon
     
     //Initialize Variables
+    MPG = tlMiles / galns;      //solving for miles per gallon
     
     //Map/Process the Inputs -> Outputs
     
-    //Display Inputs/Outputs
+    //Display Inputs/Outputs  
+    cout << "A car holds 15 gallons of gasoline and can travel 375 miles before refueling."
+         << " Therefore, the number of miles per gallon the car get will be: " 
+         <<  MPG << " miles per gallon.";
     
     //Clean up memory and files
     

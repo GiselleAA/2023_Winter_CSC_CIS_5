@@ -5,7 +5,7 @@
  * Created on January 13, 2023, 11:35 PM
  * Purpose: Write a C++ program that will determine
  * the amount of memory used by these types and display the information on the 
- * screen.
+ * screen.z
  */
 
 //System Libraries
@@ -24,12 +24,23 @@ int main(int argc, char** argv) {
     //Set random number seed
     
     //Declare Variables
-    
+    int numb;       //number
+    char letr;      //letter
+    float decml;    //decimal
+    //did not use double due to this course's 
+    //restriction of using doubles 
+            
+            
+           
     //Initialize Variables
     
     //Map/Process the Inputs -> Outputs
     
     //Display Inputs/Outputs
+    
+    cout << "Int uses " << sizeof(numb) << " byte(s).\n";
+    cout << "Char uses " << sizeof(letr) << " byte(s). \n";
+    cout << "Float uses " << sizeof(decml) << " byte(s).\n";
     
     //Clean up memory and files
     
