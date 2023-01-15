@@ -1,6 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Gaddis Chapter 2 Problem 3
+ * Name: Giselle Avila
  * Created on January 13, 2023, 10:30 PM
  * Purpose: Write a program chat will compute the total sales tax on a $95 
  * purchase. Assume the state sales tax is 4 percent, and the county sales tax 

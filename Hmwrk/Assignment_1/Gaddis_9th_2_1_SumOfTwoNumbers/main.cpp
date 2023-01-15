@@ -1,6 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Gaddis Chapter 2 Problem 1
+ * Name: Giselle Avila
  * Created on January 13, 2023, 10:00 PM
  * Purpose: Write a program that stores the integers 50 and 100 in variables, 
  * and stores the sum of these two in a variable named total.                  

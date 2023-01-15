@@ -1,6 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Gaddis Chapter 2 Problem 2
+ * Name: Giselle Avila
  * Created on January 13, 2023, 10:15 PM
  * Purpose: The East Coast sales division of a company generates 58 percent of 
  * total sales. Based on that percentage, write a program that will predict how 

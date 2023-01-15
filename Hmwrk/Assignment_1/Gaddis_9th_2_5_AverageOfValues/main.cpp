@@ -1,6 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Gaddis Chapter 2 Problem 5
+ * Name: Giselle Avila
  * Created on January 13, 2023, 10:50 PM
  * Purpose: Write a program that stores the following values in five different 
  * variables: 28, 32, 37, 24, and 33. The program should first calculate the 
@@ -28,7 +29,8 @@ int main(int argc, char** argv) {
     
     //Initialize Variables
     const int FIVE = 5;
-    float valOne = 28,
+    
+    float valOne = 28,      //values of the five numbers
         valTwo = 32,
         valThre = 37,
         valFor = 24,

@@ -1,11 +1,12 @@
 /* 
  * File:   main.cpp
  * Author: Gaddis Chapter 2 Problem 7
- * Created on January 13, 2023
- * Purpose: Wricc a program that computes the tax and tip on a restaurant bill 
+ * Name: Giselle Avila
+ * Created on January 13, 2023, 11:10 PM
+ * Purpose: Write a program that computes the tax and tip on a restaurant bill 
  * for a patron with a $88.67 meal charge. The tax should be 6.75 percent of 
- * the meal cost. The rip should be 20 percent of the toral after adding the tax. 
- * Display che meal cost, tax amount, tip amount, and coral bill on the screen. 
+ * the meal cost. The rip should be 20 percent of the total after adding the tax. 
+ * Display the meal cost, tax amount, tip amount, and coral bill on the screen. 
  */
 //System Libraries
 #include <iostream> //Input Output Library
@@ -23,26 +24,30 @@ int main(int argc, char** argv) {
     //Set random number seed
     
     //Declare Variables
-    float oceYrly = 1.5,
-          fivYrs  = 5,
+    float oceYrly = 1.5,          //oceans yearly increase in millimeters
+          fivYrs  = 5,            //presenting number of years 
           sevYrs = 7,
           tenYrs = 10,
-          afFiv,
-          afSev,
-          afTen;
+          afFiv,                  //ocean's levels after 5 years
+          afSev,                  //ocean's levels after 7 years
+          afTen;                  //ocean's levels after 10 years
           
           
     //Initialize Variables
     
     //Map/Process the Inputs -> Outputs
-       afFiv = oceYrly * fivYrs;
-       afSev = oceYrly * sevYrs;
-       afTen = oceYrly * tenYrs;
+       afFiv = oceYrly * fivYrs;            //Solving for levels after 5 yrs
+       afSev = oceYrly * sevYrs;            //Solving for levels after 7years
+       afTen = oceYrly * tenYrs;            //Solving for levels after 10 years
     //Display Inputs/Outputs
-       cout << "The ocean's level will grow " << afFiv <<
+       
+       //Displaying growth after certain amount of years
+       cout << "The ocean's level will grow " << afFiv <<  
                 " millimeters after five years.\n";
+       
        cout  << "The ocean's level will grow " << afSev <<
                 " millimeters after seven years.\n";
+       
        cout << "The ocean's level will grow " << afTen <<
                 " millimeters after ten years.\n";
 
